@@ -10,7 +10,7 @@ arithmetic_type = input("Enter M for multiply D for divide A for add or S for su
 num1 = int(input("Enter a number: "))
 num2 = int(input("Enter a number: "))
 
-# control flow
+# control flow! not executing properly always does multiplication regardless of arithmetic type input
 if arithmetic_type=="S" or "s": 
         answer=num1-num2
         a_t = "minus"
